@@ -1,0 +1,52 @@
+_working/*
+src/*.exe
+release/slimcoin-qt.exe
+src/slimcoind
+src/test_slimcoin
+src/build.h
+src/obj/*
+src/obj_test
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.slimcoin
+.qmake.stash
+#testing scripts
+my*
+my*
+\#*\#
+.\#*
+*emacs*
+.~lock.*
+TAGS
+
+#compilation and Qt preprocessor part
+*.qm
+slimcoin-qt
+slimcoin-qt*.cpp
+Makefile
+Makefile.Debug
+Makefile.Release
+Makefile.Profile
+object_script*
+
+#resources cpp
+qrc_*.cpp
+#qt creator
+*.pro.user
+qrc_bitcoin.cpp
+
+#mac specific
+.DS_Store
+build
+*.xcodeproj
+PortIndex*
+dist
+*.app
+*.dmg
+
+!src/leveldb/Makefile
